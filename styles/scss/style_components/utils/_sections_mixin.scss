@@ -1,4 +1,6 @@
-@mixin section-styles($border, $name-color, $graduate-color, $description-color, $quote-color, $quote-margin) {
+@import './breakpoints';
+
+@mixin section-styles($border, $name-color, $graduate-color, $description-color, $quote-color, $quote-margin, $quote-margin-desktop) {
     img {
         border: $border;
     }
@@ -20,6 +22,10 @@
     .quote {
         color: $quote-color;
         margin-top: $quote-margin;
+
+        @include breakpoint(large) {
+            margin-top: $quote-margin-desktop;
+        }
     }
 }
 
