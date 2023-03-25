@@ -1,0 +1,25 @@
+@mixin section-styles($border, $name-color, $graduate-color, $description-color, $quote-color, $quote-margin) {
+    img {
+        border: $border;
+    }
+
+    .profile-info {
+        .name {
+            color: $name-color;
+        }
+
+        .graduate {
+            color: $graduate-color;
+        }
+    }
+
+    .description {
+        color: $description-color;
+    }
+
+    .quote {
+        color: $quote-color;
+        margin-top: $quote-margin;
+    }
+}
+
