@@ -2,7 +2,7 @@
 
 ## design url (figma) - https://www.figma.com/file/jzyZWsDSxfktV9mpJg50vX/testimonials-grid-section?node-id=0-1&t=TlE6Hqw4EwFQXyUX-0
 
-## live url - 
+## live url - https://temuritsutskiridze.github.io/Testimonials-Grid-Section/
 
 
 ![Image 1](./design/desktop-design.jpg)
