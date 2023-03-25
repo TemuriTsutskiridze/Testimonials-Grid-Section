@@ -87,7 +87,7 @@ main {
 
 .section-1 {
   background: #733FC8;
-  background-image: url(/assets/icons/bg-pattern-quotation.svg);
+  background-image: url(../../assets/icons/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: top 0 right 2.4rem;
   box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
